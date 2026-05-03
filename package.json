@@ -1,0 +1,33 @@
+{
+  "name": "discord-mcp-for-codex",
+  "version": "0.1.0",
+  "description": "Dependency-free Discord bot MCP server for Codex, with channel and DM tools.",
+  "type": "module",
+  "bin": {
+    "discord-mcp-for-codex": "./discord-mcp.mjs"
+  },
+  "scripts": {
+    "start": "node ./discord-mcp.mjs",
+    "smoke:test": "node ./scripts/smoke-test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashakang/discord-mcp-for-codex.git"
+  },
+  "keywords": [
+    "codex",
+    "discord",
+    "discord-bot",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "athanasiosbot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashakang/discord-mcp-for-codex/issues"
+  },
+  "homepage": "https://github.com/sashakang/discord-mcp-for-codex#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
